@@ -5,6 +5,7 @@ class ServiceCentersController < ApplicationController
   before_action :set_values, only: %i[client_request]
   include Vehicle
   
+  #shankar
 
   def index
     @all = ServiceCenter.all
